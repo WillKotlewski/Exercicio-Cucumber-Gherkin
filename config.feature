@@ -10,25 +10,24 @@
             Dado que eu acesse a página de um produto EBAC-SHOP
 
             Cenário: Seleção de cor
-            Quando eu clicar na cor desejada
-            Então deve aparecer uma foto do produto com a cor selecionada
+            Quando eu clicar na cor "red"
+            Então deve aparecer uma foto do produto com a cor "red"
 
             Cenário: Seleção de tamanho
-            Quando eu clicar no tamanho desejado
-            Então deve aparecer uma foto do produto com o tamanho selecionado
+            Quando eu clicar no tamanho "XS"
+            Então deve aparecer uma foto do produto com o tamanho "XS"
 
             Cenário: Seleção de quantidade
-            Quando eu selecionar a quantidade desejada
-            Então deve aparecer o número identificando a quantidade de produtos
-
+            Quando eu selecionar a quantidade "7"
+            Então deve aparecer o número identificando a quantidade "7" de produtos
 
             Cenário: Mais de 10 produtos por venda
-            Quando eu colocar mais de 10 produtos
+            Quando eu tentar colocar "11" produtos
             Então deve aparecer uma mensagem "Máximo de 10 produtos por venda"
 
             Cenário: Clique em botão limpar
-            Quando eu clicar no botão limpar
-            Então o produto deve voltar ao estado original da página
+            Quando eu clicar no botão "limpar"
+            Então o produto deve voltar ao estado "original" da página
 
             Esquema do Cenário: Teste de multiplas cores e tamanhos
             Quando eu selecionar a <cor>
