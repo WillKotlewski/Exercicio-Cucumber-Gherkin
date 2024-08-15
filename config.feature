@@ -20,7 +20,7 @@
             Cenário: Tentativa de compra sem especificar produto
             Quando eu clicar no botão "comprar"
             E não selecionar "cor" ou "tamanho"
-            Então o produto deve aparecer uma mensagem "Por favor selecione cor e tamanho desejado" 
+            Então deve aparecer uma mensagem "Por favor selecione cor e tamanho desejado" 
 
 
             Esquema do Cenário: Teste de multiplas cores, tamanhos e quantidades
