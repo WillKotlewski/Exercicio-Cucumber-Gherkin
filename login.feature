@@ -15,10 +15,10 @@
             Então deve exibir a <mensagem> de sucesso
 
             Exemplos:
-            | usuario          | senha   | mensagem    |
-            | "will@ebac.com"  | "123"   | "Olá Will"  |
-            | "maria@ebac.com" | "123"   | "Olá Maria" |
-            | "sapo@ebac.com"  | "12345" | "Olá Sapo"  |
+            | usuario              | senha   | mensagem    |
+            | "will@ebac.com"      | "123"   | "Olá Will"  |
+            | "maria1234@ebac.com" | "123"   | "Olá Maria" |
+            | "sapo#@ebac.com"     | "12345" | "Olá Sapo"  |
 
 
             Esquema do Cenário: Usuários e ou Senha inválidos
@@ -27,10 +27,10 @@
             Então deve exibir a <mensagem> de alerta
 
             Exemplos:
-            | usuario          | senha   | mensagem                     |
-            | "will@ebac.com"  | "123"   | "Usuário ou senha inválidos" |
-            | "maria@ebac.com" | "123"   | "Usuário ou senha inválidos" |
-            | "sapo@ebac.com"  | "12345" | "Usuário ou senha inválidos" |
+            | usuario                | senha   | mensagem                     |
+            | "will@ebac.com"        | "123"   | "Usuário ou senha inválidos" |
+            | "maria1234@ebac.com"   | "123"   | "Usuário ou senha inválidos" |
+            | "sapo_homem#@ebac.com" | "12345" | "Usuário ou senha inválidos" |
 
 
 
